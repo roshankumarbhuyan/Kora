@@ -1,0 +1,54 @@
+/* src/components/Hero.css */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* src/components/Hero.css */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0 20px;
+  background-color: transparent; /* Add this line */
+}
+
+/* ... (keep the rest of the Hero.css styles) ... */
+.hero-content .highlight {
+  color: var(--primary-color);
+}
+
+.hero-typewriter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.hero-socials a {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin: 0 1rem;
+  transition: color 0.3s;
+}
+
+.hero-socials a:hover {
+  color: var(--primary-color);
+}

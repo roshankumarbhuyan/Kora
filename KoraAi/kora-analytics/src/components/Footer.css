@@ -1,0 +1,26 @@
+/* src/components/Footer.css */
+.footer {
+  padding: 2rem;
+  background-color: #050505;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-socials {
+  margin-top: 1rem;
+}
+
+.footer-socials a {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin: 0 0.75rem;
+  transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+  color: var(--primary-color);
+}
